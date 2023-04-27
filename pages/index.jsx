@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-html-link-for-pages */
 import Head from 'next/head'
 import Image from 'next/image'
@@ -26,6 +28,7 @@ const Home = () => {
                         />
                     </div>
                     <div className="col-lg-6">
+                        <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fkamar-sehat.vercel.app&count_bg=%23006BED&title_bg=%23000000&icon=next-dot-js.svg&icon_color=%23FFFFFF&title=Visited&edge_flat=true" width="200px" /></a>
                         <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Cek Kamar Rumah Sakit</h1>
                         <p className="lead">Aplikasi untuk melhat ketersediaan kamar pada rumah sakit di seluruh indonesia.</p>
                         <div className="d-grid gap-2 d-md-flex justify-content-md-start">

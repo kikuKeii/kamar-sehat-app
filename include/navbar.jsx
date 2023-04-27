@@ -15,7 +15,6 @@ const Navbar = () => {
                         <li className="nav-item"><a href="/cek" className="nav-link link-dark" aria-current="page">Cek Kamar</a></li>
                         <li className="nav-item"><a href="/#product" className="nav-link link-dark">Product</a></li>
                         <li className="nav-item"><a href="/#about" className="nav-link link-dark">About</a></li>
-                        <li className="nav-item"><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fkamar-sehat.vercel.app&count_bg=%230042FF&title_bg=%23555555&icon=next-dot-js.svg&icon_color=%23E7E7E7&title=Visited&edge_flat=false" /></a></li>
                     </ul>
                 </header>
             </div>
